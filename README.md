@@ -35,7 +35,7 @@ steps:
             "s3:GetObjectAcl",
             "s3:DeleteObject"
          ],
-         "Resource":"arn:aws:s3:::project-001-production"/*"
+         "Resource":"arn:aws:s3:::project-001-production/*"
       }
    ]
 }
