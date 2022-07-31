@@ -12,7 +12,7 @@ steps:
 
 2.create an IAM role in prod account with s3 access
 
-```jason
+```json
 {
     "Version": "2012-10-17",
     "Statement": [
