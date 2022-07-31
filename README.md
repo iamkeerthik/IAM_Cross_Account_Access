@@ -8,6 +8,7 @@ AWS IAM Cross Account Access
 steps:
 
 1. Prod account ID: 222255557777
+   
    Dev account ID:  888844447777
 
 2.create an IAM role in prod account with s3 access
