@@ -27,6 +27,7 @@ steps:
         }
     ]
 
+}
 
 3.Create a new inline policy in Dev account with sts-assume role
 
