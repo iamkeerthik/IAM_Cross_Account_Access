@@ -12,6 +12,7 @@ steps:
 
 2.create an IAM role in prod account with s3 access
 
+```jason
 {
     "Version": "2012-10-17",
     "Statement": [
@@ -28,9 +29,11 @@ steps:
     ]
 
 }
+```
 
 3.Create a new inline policy in Dev account with sts-assume role
 
+```json
 {
   "Version": "2012-10-17",
   "Statement": {
@@ -39,7 +42,7 @@ steps:
     "Resource": "arn:aws:iam::222222222222:role/acc-to-read-prod-s3-bucket"
   }
 }
-
+```
 
 
 4. Create a new user in Dev account and create developer group and attach newly created policy.
